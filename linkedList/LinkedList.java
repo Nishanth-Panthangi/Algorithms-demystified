@@ -11,7 +11,7 @@ class Node<T> {
     public T data;     // Data of type T
     public Node<T> next;     // Pointer to next Node
 
-    // Constructor to create a Node
+    // Constructor to create a Node for linkedList
     public Node(T input) {
         this.data = input;
         this.next = null;
