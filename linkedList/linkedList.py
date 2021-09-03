@@ -1,3 +1,7 @@
+"""
+created by nishanth 
+on 30/08/2021
+"""
 class Node(object):
     def __init__(self, data=None, next_=None):
         # Initialises Node
