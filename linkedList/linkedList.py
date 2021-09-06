@@ -146,7 +146,6 @@ class LinkedList(object):
             current = next_
         self.head = prev
 
-
 def main():
     l_list = LinkedList()
 
