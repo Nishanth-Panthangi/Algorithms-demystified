@@ -153,7 +153,8 @@ class LinkedList<T> {
     public boolean isEmpty() {
         return sizeOfList == 0;
     }
-
+    
+    // Main method
     public static void main(String[] args) {
 
         LinkedList<Integer> list = new LinkedList<Integer>();     // Creating an empty Linked List
