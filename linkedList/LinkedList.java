@@ -206,11 +206,6 @@ class LinkedList<T> {
         while (!list.isEmpty())
             list.removeLast();
 
-        // Testing Exceptions thrown
-        try {
-            list.removeLast();
-        } catch (NoSuchElementException e) {
-            System.out.println("List Empty");
-        }
+       
     }
 }
